@@ -23,7 +23,6 @@ public class LoginTestScenarios extends BaseTest {
 	public void verifyLoginPageTitle() {
 		test = extent.createTest("Verify Login Page title").assignAuthor("Tester1").assignCategory("Functional Testing")
 				.assignDevice("Chrome");
-//		test.createNode("Verify Login Page title");
 		test.info("Test Started");
 
 		loginpage = new LoginPage(driver);
@@ -38,7 +37,6 @@ public class LoginTestScenarios extends BaseTest {
 
 	@Test(priority = 2)
 	public void loginTC() {
-//		test.createNode("Login to SauceLab website");
 		test = extent.createTest("Login to SauceLab website").assignAuthor("Tester1")
 				.assignCategory("Functional Testing").assignDevice("Chrome");
 		test.info("Test Started");
