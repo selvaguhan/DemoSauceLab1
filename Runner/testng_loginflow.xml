@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LoginSuite">
+	<test thread-count="5" name="LoginFlowTest">
+		<classes>
+			<class name="com.saucelab.qa.testscenarios.LoginTestScenarios">
+				<methods>
+					<include name="loginTC"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- LoginTest -->
+</suite> <!-- Suite -->

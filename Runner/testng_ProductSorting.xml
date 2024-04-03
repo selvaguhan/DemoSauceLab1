@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ProductSuite">
+	<test thread-count="5" name="ProductSortingTest">
+		<classes>
+			<class name="com.saucelab.qa.testscenarios.ProductHomeTestScenarios">
+				<methods>
+					<include name="verifyProductListSortingByName"></include>
+					<include name="verifyProductListSortingByPrice"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- ProductListing -->
+</suite> <!-- Suite -->

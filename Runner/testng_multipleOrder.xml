@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrderSuite">
+	<test thread-count="5" name="First 3 Low Price Product Order Test">
+		<classes>
+			<class name="com.saucelab.qa.testscenarios.OrderProductTestScenario2">
+				<methods>
+					<include name="doProductOrder"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- First 3 Low Price Product Order Test -->
+</suite> <!-- OrderSuite -->
